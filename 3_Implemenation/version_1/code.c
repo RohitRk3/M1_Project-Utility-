@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include<conio.h>
  int Cases()
  {
     printf( "\n Which operation do you want to operate");
@@ -10,13 +9,13 @@
     {
 
         //First case is for Armstrong number
-    case 1:
+    case 1: ;
 
         //Declaring variables
-        int num, dn, temp, d;
+        int nu, dn, temp, d;
         printf( "Enter the number to check for Armstrong Number\n");
-        scanf("%d",&num);
-        dn = num;
+        scanf("%d",&nu);
+        dn = nu;
 
         //assigning zero to temporary variable
         temp = 0;
@@ -28,19 +27,19 @@
             temp = temp + (d * d * d);
             dn = dn / 10;
         }
-        if (num == temp)
+        if (nu == temp)
         {
-            printf(" Is an Armstrong Number\n",num);
+            printf(" Is an Armstrong Number:%d\n",nu);
         }
         else
         {
-            printf(" Is not an Armstrong Number\n",num);
+            printf(" Is not an Armstrong Number:%d\n",nu);
         }
         break;
 
 
     //This is second case for Fibonacci series
-    case 2:
+    case 2: ;
 
         //Declaring variables
         int fibo_0, fibo_1, fibo, number, i;
@@ -53,13 +52,13 @@
         fibo_0 = 0;
         fibo_1 = 1;
         printf("The Fibonacci Series is given below\n");
-        printf("/n",fibo_0 "/n",fibo_1);
+        printf("%d,%d",fibo_1,fibo_0);
 
         //Applying for loop to print the series
         for (i = 1; i <= number - 2; i++)
         {
             fibo = fibo_0 + fibo_1;
-            printf("/n",fibo);
+            printf("%d/n",fibo);
             fibo_0 = fibo_1;
             fibo_1 = fibo;
         }
@@ -67,7 +66,7 @@
     
 
     //This is the third case for Palindrome numbers
-    case 3:
+    case 3: ;
         //Declaring variables
         int numb, pal, temporary, def;
         printf( "Enter the number to check whether it is Palindrome or not\n");
@@ -92,12 +91,12 @@
         }
         else
         {
-            printf(" Is not a Palindrome number\n",numb);
+            printf(" Is not a Palindrome number:%d\n",numb);
         }
         break;
 
 	//Fourth case is for Odd Even Number
-    case 4:
+    case 4: ;
 
         //Declaring variables
         int num;
@@ -109,11 +108,11 @@
      	//Check Odd Even Number
         if (num % 2 == 0)
         {
-            printf( " Is an Even Number\n",num);
+            printf( " Is an Even Number:%d\n",num);
         }
         else
         {
-           printf( " Is not an Odd Number\n",num);
+           printf( " Is not an Odd Number:%d\n",num);
         }
         break;
 
