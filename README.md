@@ -3,4 +3,7 @@
 # Idea
   Playing with numbers
   
+  
+ ## code quality
+  
 
