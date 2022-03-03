@@ -2,7 +2,7 @@
 #include <main.h>
 
 #include <main.h>
-#define PROJECT_NAME    "Employee-Record-System"
+#define PROJECT_NAME    "M1_Project-Utility-"
 
 /* Prototypes for all the test functions */
 void test_Add_Record(void);
